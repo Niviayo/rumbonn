@@ -1,0 +1,84 @@
+header{
+    background-image: url(../img/bg-header.png);
+    height: 100vh;
+    background-size: cover;
+    
+}
+.collapse{
+    justify-content: flex-end;
+}
+.collapse .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.contenido{
+    text-align: center;
+    padding-top: 170px;
+}
+.contenido h1{
+    color: rgb(238, 255, 0);
+    
+}
+.contenido p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.boton button{
+    background:  rgb(238, 255, 0);
+    
+}
+.boton {
+    text-align: center;
+    border-radius: 10%;
+    
+}
+.boton button{
+    color: rgb(82, 75, 75);
+    font-size: 22px;
+    border-radius: 10%;
+}
+.planes{
+    padding-top: 60px;
+    text-align: center;
+}
+.planes h2{
+    font-size: 15px;
+}
+.conteiner-fluid .col-md-4{
+    -ms-flex: auto;
+    flex: auto;
+    min-height: 2px;
+    padding: 4px;
+}
+section{
+    background-image: url(../img/bg-destinos.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    max-width: 100%;
+    
+}
+#destinos .row{
+    align-content: center;
+    padding: center;
+}
+section h2{
+    color: rgb(255, 255, 255);
+}
+#formulario {
+    background:rgb(238, 255, 0);
+}
+#formulario h1,h3{
+    padding-top: 60px;
+    text-align: center;
+}
+footer{
+    background: black;
+    text-align: center;
+}
+footer h3{
+    font-size: 20px;
+    color: white;
+}
+
